@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  text-align: center;
+  margin-top: 5%;
+}
+
+/* nav bar */
+
+.nav-ul{
+  background-color: skyblue;
+  width: 100%;
+}
+
+.nav-ul li{
+  display: inline-block;
+  padding: 15px;
+}
+
+.nav-ul li a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: large;
+  font-weight: 600;
+}
+
+.nav-right{
+  text-align: right;
+}
+
+#user-name{
+  float: right;
+  padding-right: 30px;
+}
+
+/* Footer  */
+
+.footer{
+  font-size: 5vh;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+  padding: 20px;
+}
+
+/* Signup */
+
+input{
+  display: block;
+  margin-left:40%;
+  margin-bottom: 30px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid skyblue;
+}
+
+h1{
+  margin-bottom: 20px;
+}
+
+.container button{
+  font-size: larger;
+  width: 20%;
+  background-color: skyblue;
+  padding: 0.5%;
+  font-weight: 600;
+  border: 1px solid skyblue;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container button:hover{
+  background-color: transparent;
+}
+
+.container h3{
+  margin-top:9px ;
+}
+
+.container span{
+  margin-left: 3px;
+}
+
+
+/* products */
+
+
+.product li{
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid skyblue;
+  width: 12%;
+  height: 26px;
+  text-align: center;
+}
+
+.container .heading li{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.container .delete-button{
+  width: fit-content;
+  padding:0 6px 0 6px;
+  border: none;
+  background-color: transparent;
+}
+
+.container .delete-button a{
+  text-decoration: none;
+  color: black;
+}
+
